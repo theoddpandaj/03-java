@@ -23,6 +23,14 @@ function generatePassword() {
       var specail = confirm("include specical casings?");
 
      }
+     if (!uppercase&&!lowercase &&!number &&!specail){
+       alert("hey aye it cant be empty");
+
+     }
+      else if (   ){
+
+
+      }
  
 
 
