@@ -2,10 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-  var upper =[ "ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
-  var lower =[ "abcdefghijklmnopqrstuvwxyz"];
-  var numb =[ "0123456789"];
-  var other =["!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"];
+  var all =[ "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&'()*+,-./:;<=>?@\^_`{|}~"];
   var how = prompt ("how long should it be?");
   var uppercase = confirm ("include uppercase?");
   var lowercase = confirm ("include lowercase?");
