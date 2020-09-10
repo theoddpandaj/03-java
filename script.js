@@ -2,7 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-  var all = [""];
+  var all = [];
   var upper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
   var lower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
   var spe = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`", "{", "|", "}", "~"]
@@ -12,15 +12,10 @@ function generatePassword() {
   var lowercase = confirm("include lowercase?");
   var number = confirm("include numbers?");
   var specail = confirm("include specical casings?");
-  function get(max) {
-    for (i = 1; i < how; i++) {
-      
-    console.log (Math.floor(Math.random() * Math.floor(max)));
-  }
-}
+  
 
-  console.log(get(how));
 
+  
   return "tacotest"
 }
 
