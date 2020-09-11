@@ -119,19 +119,19 @@ function generatePassword() {
       ;
 
   }
-  for (var i = 0; i < enter; i++) {
-    var pick = choices[Math.floor(Math.random() * how.length)];
-    all.push(pickChoices);
+  var pass =[""]
+  for (var i = 0; i < how; i++) {
+    pass += all.charAt(Math.floor(Math.random() * how));
+  }
+return pass
 }
 
 
 
+    
 
 
 
-
-  return console.log("1" + all)
-}
 
 
 
