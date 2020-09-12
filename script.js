@@ -125,7 +125,7 @@ function generatePassword() {
   }
 return pass
 }
-
+/* idea to fix interger problem idea is to use the output to then pull char data or index numbers and line it up yeethaw */
 
 
     
